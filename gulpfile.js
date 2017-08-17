@@ -8,6 +8,7 @@ const rename = require('gulp-rename');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
 const sourcemaps = require('gulp-sourcemaps');
+const autoprefixer = require('gulp-autoprefixer');
 
 /* -------- Server  -------- */
 gulp.task('server', function() {
@@ -33,10 +34,16 @@ gulp.task('templates:compile', function buildHTML() {
 /* ------------ Styles compile ------------- */
 gulp.task('styles:compile', function () {
     return gulp.src('source/styles/main.scss')
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename('main.min.css'))
         .pipe(gulp.dest('build/css'));
 });
+
+/* ------------ autoprefixer ------------- */
 
 /* ------------ js ------------- */
 gulp.task('js', function () {
