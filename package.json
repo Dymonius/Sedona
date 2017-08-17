@@ -1,0 +1,39 @@
+{
+  "name": "sedona",
+  "version": "1.0.0",
+  "description": "\"# Sedona\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dymonius/Sedona.git"
+  },
+  "keywords": [
+    "sedona"
+  ],
+  "author": "Dmitry Dvernikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dymonius/Sedona/issues"
+  },
+  "homepage": "https://github.com/Dymonius/Sedona#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp.spritesmith": "^6.3.0",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  }
+}
