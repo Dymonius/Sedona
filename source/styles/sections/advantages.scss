@@ -1,0 +1,62 @@
+.title {
+  margin-top: 0;
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $ff-main-bold;
+}
+
+.text {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 35px;
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 70px;
+}
+
+.advantages__item {
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages__header {
+  font-family: $ff-main-bold;
+  font-size: 21px;
+}
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #80B1CF;
+  color: #fff;
+}
+
+.advantages__text {
+  padding: 50px;
+  flex-grow: 0;
+  flex-basis: 400px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages__picture {
+  flex-grow: 4;
+  background: url("../images/photo-city@1x.jpg") no-repeat center/cover;
+}
+
+.number {
+  margin-bottom: 20px;
+}
+.advantages--2{
+  flex-direction: row-reverse;
+}
+.advantages__list--grey{
+  background-color: #EDEDED;
+}
