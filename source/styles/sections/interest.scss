@@ -1,0 +1,25 @@
+.interest__container {
+  max-width: 455px;
+  margin:auto;
+  text-align: center;
+}
+
+.interest__container h2 {
+  margin-top: 0;
+  padding-top: 55px;
+  font-family: $ff-main-bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.interest__container p {
+  text-transform: uppercase;
+}
+
+.interest__container .button {
+  width: 100%;
+  margin-bottom: 55px;
+  margin-top: 30px;
+  padding: 15px;
+  border: none;
+}

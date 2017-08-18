@@ -21,7 +21,8 @@
 }
 
 .advantages__item {
-  width: 25%;
+  width: 30%;
+  flex-basis: 220px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -46,17 +47,24 @@
   text-transform: uppercase;
 }
 
-.advantages__picture {
+.advantages__picture1 {
   flex-grow: 4;
+  min-width: 400px;
   background: url("../images/photo-city@1x.jpg") no-repeat center/cover;
 }
-
+.advantages__picture2 {
+  flex-grow: 4;
+  min-width: 400px;
+  background: url("../images/photo-bridge@1x.jpg") no-repeat center/cover;
+}
 .number {
   margin-bottom: 20px;
 }
-.advantages--2{
+
+.advantages--2 {
   flex-direction: row-reverse;
 }
-.advantages__list--grey{
+
+.advantages__list--grey {
   background-color: #EDEDED;
 }
