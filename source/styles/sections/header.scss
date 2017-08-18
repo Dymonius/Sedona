@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  @include centerer-x();
+
+}
+
+.logo img {
+  height: 96px;
+}
+
+.header__hero {
+  min-height: 520px;
+  text-align: center;
+  background: #ccc url("../images/back.jpg") center/cover no-repeat;
+}
+.header__text {
+  padding-top: 75px;
+
+}

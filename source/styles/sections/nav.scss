@@ -1,0 +1,32 @@
+.main-nav__items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+}
+
+.main-nav__item:nth-child(2) {
+  flex-grow: 1;
+}
+
+.main-nav__item:nth-child(3) {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.main-nav__item a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $ff-main-bold;
+  margin: 0 40px;
+  padding: 10px 0;
+  transition: .2s;
+  &:hover {
+    color: #80B1CF;
+  }
+  &:active {
+    color: #C9C9C9;
+  }
+}
