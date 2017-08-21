@@ -30,3 +30,31 @@
     color: #C9C9C9;
   }
 }
+
+@media (max-width: 850px) {
+  .main-nav__items {
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-nav__item:nth-child(3) {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .main-nav__item {
+    border-bottom: 1px solid #678DA5;
+  }
+  .main-nav__item a {
+    width: 100%;
+    margin: 0;
+    background-color: #80B1CF;
+    color: #ffffff;
+    &:hover {
+      color: #ffffff;
+      background-color: #679CBC;
+    }
+    &:active {
+      color: #89B1CB;
+      background-color: #5694B9;
+    }
+  }
+}

@@ -52,11 +52,13 @@
   min-width: 400px;
   background: url("../images/photo-city@1x.jpg") no-repeat center/cover;
 }
+
 .advantages__picture2 {
   flex-grow: 4;
   min-width: 400px;
   background: url("../images/photo-bridge@1x.jpg") no-repeat center/cover;
 }
+
 .number {
   margin-bottom: 20px;
 }
@@ -67,4 +69,38 @@
 
 .advantages__list--grey {
   background-color: #EDEDED;
+}
+
+@media (max-width: 850px) {
+  .advantages__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages__item {
+    flex-basis: 180px;
+    margin-bottom: 20px;
+    width: 100%;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .advantages__item--grey {
+    border-bottom: 1px solid #DBDBDB;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .advantages {
+    flex-direction: column;
+  }
+  .advantages__text {
+    flex-basis: 270px;
+  }
+  .advantages__picture1,
+  .advantages__picture2 {
+    width: 100%;
+    min-height: 270px;
+    min-width: 300px;
+  }
 }

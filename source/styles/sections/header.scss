@@ -17,7 +17,16 @@
   text-align: center;
   background: #ccc url("../images/back.jpg") center/cover no-repeat;
 }
+
 .header__text {
   padding-top: 75px;
+}
 
+@media (max-width: 850px) {
+  .logo img {
+    display: none;
+  }
+  .header__text {
+    width: 300px;
+  }
 }
