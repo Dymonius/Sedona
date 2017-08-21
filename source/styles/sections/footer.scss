@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__hash {
+  font-size: 21px;
+  font-family: $ff-main-bold;
+  text-transform: uppercase;
+}
+
+.footer__social {
+  font-size: 21px;
+  color: #ffffff;
+  background-color: #80B1CF;
+  margin-left: 5px;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  &:hover {
+    background-color: #679CBC;
+    color: #fff;
+  }
+  &:active {
+    background-color: #5694B9;
+    color: #93B7CF;
+  }
+}
+
+.footer__academy {
+  text-transform: uppercase;
+}
+
+.footer__academy img {
+  margin-left: 10px;
+}
