@@ -48,7 +48,9 @@ gulp.task('styles:compile', function () {
 /* ------------ js ------------- */
 gulp.task('js', function () {
     return gulp.src([
+        'source/js/jquery-3.2.1.min.js',
         'source/js/main.js',
+        'source/js/preloader.js',
     ])
         .pipe(sourcemaps.init())
         .pipe(concat('main.min.js'))
